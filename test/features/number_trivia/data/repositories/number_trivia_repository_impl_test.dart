@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:tdd_clean_architecture_course/core/error/exception.dart';
 import 'package:tdd_clean_architecture_course/core/error/failures.dart';
-import 'package:tdd_clean_architecture_course/core/platform/network_info.dart';
+import 'package:tdd_clean_architecture_course/core/network/network_info.dart';
 import 'package:tdd_clean_architecture_course/feature/number_trivia/data/datasources/number_trivia_local_data_source.dart';
 import 'package:tdd_clean_architecture_course/feature/number_trivia/data/datasources/number_trivia_remote_data_source.dart';
 import 'package:tdd_clean_architecture_course/feature/number_trivia/data/models/number_trivia_model.dart';
