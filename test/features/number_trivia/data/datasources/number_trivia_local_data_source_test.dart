@@ -9,11 +9,11 @@ import 'package:tdd_clean_architecture_course/feature/number_trivia/data/models/
 import '../../../../fixtures/fixture_reader.dart';
 import 'package:matcher/matcher.dart';
 
-
-/**
- * There are plenty of options to choose from when it comes to local data persistence.
- * We're ​using shared_preferences because we don't store a lot of data.
- */
+//
+///**
+// * There are plenty of options to choose from when it comes to local data persistence.
+// * We're ​using shared_preferences because we don't store a lot of data.
+// */
 class MockSharedPreferences extends Mock implements SharedPreferences {}
 
 void main() {

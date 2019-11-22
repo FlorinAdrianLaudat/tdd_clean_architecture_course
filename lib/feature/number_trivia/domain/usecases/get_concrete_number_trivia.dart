@@ -4,7 +4,6 @@ import 'package:meta/meta.dart';
 import 'package:tdd_clean_architecture_course/core/error/failures.dart';
 import 'package:tdd_clean_architecture_course/core/usecases/usecase.dart';
 import 'package:tdd_clean_architecture_course/feature/number_trivia/domain/entities/number_trivia.dart';
-
 import '../repositories/number_trivia_repository.dart';
 
 class GetConcreteNumberTrivia extends UseCase<NumberTrivia, Params>{
